@@ -30,7 +30,7 @@ st.markdown("---")
 
 @st.cache(allow_output_mutation=True)
 def load_ai_model():
-    return tf.keras.models.load_model('../models/64_angled_grandmaster.keras')
+    return tf.keras.models.load_model('models/64_angled_grandmaster.keras')
 
 try:
     model = load_ai_model()
