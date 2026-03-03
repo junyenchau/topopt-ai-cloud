@@ -17,7 +17,7 @@ The application demonstrates the architectural evolution of this engineering too
 ## Key Engineering Metrics
 * **Inference Speed (Phase 2):** Achieved a **~30x single-shot latency speedup** (<0.05s per design) for interactive GUIs, and a **>300x batch throughput speedup** for large-scale generative design exploration.
 * **Accuracy:** Maintained **92.3% Intersection-over-Union (IoU)** against physics-grounded dataset benchmarks.
-* **Data Pipeline:** Engineered a custom Python-based SIMP FEA solver to generate over 5,000 combined training samples exponentially faster than standard commercial API automation.
+* **Data Pipeline:** Engineered a custom Python-based SIMP FEA solver to generate over 33,000 combined training samples exponentially faster than standard commercial API automation.
 
 ## Cloud & MLOps Architecture
 To ensure cross-platform environment stability and high availability, this application is fully containerized and deployed via a modern serverless pipeline.
